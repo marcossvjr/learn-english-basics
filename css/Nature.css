@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+}
+
+.box-button-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.box-button-wrap .box-button {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    flex-basis: 160px;
+}
+
+.box-button-wrap .box-button:hover,
+.box-button-wrap .box-button:focus {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25);
+    transition: all 0.15s;
+}
+
+.box-button-wrap .box-button span {
+    text-align: center;
+    display: block;
+}
+
+.box-button-wrap .box-button img {
+    font-size: 5em;
+    width: 100px;
+    height: 100px;
+    margin: 0 29px;
+    border: 1px solid #ddd;
+}
+
+.box-button-wrap .box-button .description {
+    margin: 20px auto 10px;
+    font-size: 2em;
+}
